@@ -1,0 +1,286 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+    body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.555)) ,url(../Assets/beach.jpg);
+    background-size:100% 1000px,100% 1000px;
+    background-repeat:no-repeat,no-repeat;
+    overflow-x:hidden;
+}
+    #head-text{
+        width:600px; height:500px;
+         
+        position:relative;top:35px; left:50px;
+    }
+
+    #cont{
+        width:600px;
+        height:550px;
+        /* background-color:aqua; */
+        position:absolute;
+        right:30px;
+        bottom:30px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .places{
+             width:240px;
+                 height:200px;
+                   box-shadow:  3px 3px 3px black;
+                   transition:all 0.5s;
+                 color:transparent;
+                 border-radius:3%;
+            }
+    #place1{
+            background-image:url(../Assets/Varanasi.jpg);
+            background-repeat: no-repeat;
+            background-size:100% 200px;
+             
+            
+    }
+    #place2{
+        background-image:url(../Assets/bali.webp);
+        background-repeat: no-repeat;
+        background-size:100% 200px;
+        position:relative;right:20px;
+}
+#place3{
+    background-image:url(../Assets/Dubai-Tourism-1080x675.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 200px;
+    position:relative;top:-40px;
+}
+#place4{
+    background-image:url(../Assets/Lanka.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 200px;
+    position:relative;top:-40px;
+    right:20px;
+}
+#place1:hover{
+    background-image:url(../Assets/Varanasi.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-size:100% 200px , 100% 200px;
+    color:white;
+    text-align:center;
+    font-size:30px;
+    position:relative;top:-10px;
+    box-shadow:3px 3px 0px black;
+    transform:scale(1.3);
+}
+#place2:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.788), rgba(128, 128, 128, 0.884), rgba(0, 0, 0, 0.795)),url(../Assets/bali.webp);
+    background-repeat: no-repeat,no-repeat;
+    background-size:100% 200px , 100% 200px;
+    color:white;
+    text-align:center;
+    box-shadow:3px 3px 0px black;
+    font-size:30px;
+    position:relative;top:-10px;
+    transform:scale(1.3);
+}
+#place3:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.788), rgba(128, 128, 128, 0.884), rgba(0, 0, 0, 0.795)),url(../Assets/Dubai-Tourism-1080x675.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-size:100% 200px , 100% 200px;
+    color:white;
+    box-shadow:3px 3px 0px black;
+    text-align:center;
+    font-size:30px;
+    position:relative;top:-25px;
+    transform:scale(1.3);
+}
+#place4:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.788), rgba(128, 128, 128, 0.884), rgba(0, 0, 0, 0.795)),url(../Assets/Lanka.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-size:100% 200px , 100% 200px;
+    color:white;
+    text-align:center;
+    font-size:30px;
+    box-shadow:3px 3px 0px black;
+    position:relative;top:-25px;
+    transform:scale(1.3);
+}
+h1{margin-top:60px;}
+#htext{
+    color:whitesmoke;
+    font-size:95px;
+}
+#gap{
+    width:100%;height:200px;
+    
+}
+#page2{
+    width:100%;height:2000px;
+    background-image:linear-gradient(rgb(2, 2, 44),rgba(0, 0, 0, 0.979),rgba(1, 1, 88, 0.801));
+    z-index:0;
+    overflow:hidden;
+
+}
+#biryani{
+    background-color:palegreen;
+    width:950px;height:410px;
+    clip-path: polygon(33% 0, 100% 0%, 100% 100%, 0% 100%);
+    position: relative; top:110px;left:430px;
+    transition:all 2s;
+}
+#ved{
+    width:100%;
+}
+#desc-in{
+    width:600px; height:400px;
+    background-color:rgb(66, 2, 66);
+    position: relative; top:-300px;left: 10px;;
+    clip-path: polygon(0 0, 100% 0%, 55% 100%, 0% 100%);
+    z-index:2;
+    overflow:auto;
+     color:rgba(255, 255, 255, 0.849);
+     transition:all  2s;
+}
+#desc-out{
+    width:600px; height:400px;
+    background-color:rgb(85, 85, 2);
+    position: relative; top:-690px; left:20px;
+    clip-path: polygon(0 0, 100% 0%, 55% 100%, 0% 100%);
+    z-index:1;
+     
+}
+#hbiryani{
+    text-align: center;
+    position:relative;left:-20px
+    
+}
+p{
+      font-size:18px;
+      word-spacing:3px;
+    }
+    #idiyappam{
+        width:850px; height:400px;
+        background-color:rgb(66, 2, 66);
+        position: relative; top:-620px;left: 10px;;
+        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+        z-index:2;
+         transition:all 2s;
+         color:rgba(255, 255, 255, 0.849);
+    }
+    #desc2{
+        background-color:rgb(0, 150, 117);
+        width:640px;height:395px;
+        clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0 100%);
+        position: relative;
+        right:-700px; top:-1076px;
+             transition:all 2s;
+    }
+    #ved2{
+        width:100%;
+    }
+    #hidiyappam{
+        text-align: end;
+        position: relative;
+        right: 110px;
+    }
+#pidiyappam{
+    position:relative;
+    left:190px;
+}
+#desc-in:hover{
+    transform:scale(1.3);
+}
+#biryani:hover{
+   transform:scale(1.3);
+}
+#idiyappam:hover{
+    transform:scale(1.2);
+ }
+ #desc2:hover{
+    transform:scale(1.2);
+ }
+#dmandi
+{
+    width:800px; height:400px;
+    background-color:rgb(8, 106, 145);
+    position:relative;top:-970px; left:-270px;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    float:left;
+    transition:all 2s;
+}
+#mandi{
+    background-color:palegreen;
+    width:990px;height:400px;
+    clip-path: polygon(21% 0, 100% 0%, 100% 99%, 0 100%);
+     position:relative;top:-970px;left:430px;
+     transition:all 2s;
+}
+#vmandi{
+    width:100%;
+    position:absolute;left:0px;   
+}
+ #hmandi{
+    text-align:center;
+    margin-top:0px;
+    margin-left:150px;
+ }
+ #pmandi{
+    margin-left:280px;
+    word-spacing:3px;
+ }
+ a{
+    text-decoration:none;
+    color:black;
+ }
+ a:hover{
+    text-decoration:underline;
+ }
+ #dmandi:hover{
+    transform:scale(1.2);
+ }
+ #mandi:hover{
+    transform:scale(1.2);
+ }
+ #pelala{
+    width:850px; height:400px;
+    background-color:rgb(66, 2, 66);
+    position: relative; top:-910px;left: 0px;;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+   
+     transition:all 2s;
+     
+ }
+ #dpelala{
+    width:640px;height:399px;
+        clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0 100%);         
+        position: relative; top:-1366px;left: 685px;
+        background-color:rgb(49, 209, 49);
+        transition:all 2s;
+ }
+ #hpelala{
+                text-align: center; position:relative;left:100px; 
+                letter-spacing:3px;
+         }
+#ppelala{
+        position:relative;left:180px
+        }
+#vpelala{
+          width:100%;
+
+       }
+ #pelala:hover{
+      transform:scale(1.2);
+ } 
+ #dpelala:hover{
+    transform:scale(1.1);
+} 
+#infoPage
+{
+    text-decoration:none;
+    color:white;
+}
+#infoPage:hover
+{
+   text-decoration:underline;
+   color:aqua;
+   transform:scale(1.1);
+}

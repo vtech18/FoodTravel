@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../CSS/Gallery.css">
+  <script src="../JS/Gallery.js"></script>
+    <title>Food Gallery</title>
+</head>
+<body onload="fun()">
+     <div id="header">
+           
+          <button id="leftButton" onclick="left()"><</button>
+          <button id="rightButton" onclick="right()">></button>
+     </div>
+      <div id="album">
+       <img class="images" src="../Assets/food/0.jpg.jpg" onclick="openImage(0)">
+       <img class="images" src="../Assets/food/1.jpg.jpg"  onclick="openImage(1)">
+       <img class="images" src="../Assets/food/2.jpg.jpg"  onclick="openImage(2)">
+       <img class="images" src="../Assets/food/3.jpg.jpg"  onclick="openImage(3)">
+       <img class="images" src="../Assets/food/4.jpg.jpg"  onclick="openImage(4)">
+       <img class="images" src="../Assets/food/5.jpg.jpg"  onclick="openImage(5)">
+       <img class="images" src="../Assets/food/6.jpg.jpg"  onclick="openImage(6)">
+       <img class="images" src="../Assets/food/7.jpg.jpg"  onclick="openImage(7)">
+       <img class="images" src="../Assets/food/8.jpg.jpg"  onclick="openImage(8)">
+       <img class="images" src="../Assets/food/9.jpg.jpg"  onclick="openImage(9)">
+       <img class="images" id="i10" src="../Assets/food/10.jpg.jpg" onclick="openImage(10)">
+       <img class="images" id="i11" src="../Assets/food/11.jpg.jpg" onclick="openImage(11)">
+     </div>
+     <div id="displayImage" style="display:none;">
+           <img id="popImage" >
+           <h1 id="close" onclick="closeImage()">×</h1>
+     </div>
+</body>
+</html>
